@@ -6,20 +6,20 @@
 	background-color: rgba(0,0,0,0.8);
 	font-family:Arial;
 	vertical-align: middle;
-	box-shadow:0 0 10px rgba(0,0,0,0.5);
+	box-shadow:0 0 8px rgba(0,0,0,255);
 }
 #menu_header div {
 	width:auto;
 	color:#BBB;
 	font-family:Arial;
 	padding : 10px;
-	border-right : 2px solid #333;
+	border-right : 1px solid #333;
 	display: inline-block;
 	transition : color 0.3s;
 }
 #menu_header div:hover {
 	color: white;
 	font-family: Arial;
-	transition : color 0.3s;
+	transition : all 0.3s;
 }
 
