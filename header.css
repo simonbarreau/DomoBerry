@@ -1,5 +1,4 @@
 #menu_header {
-	
 	position:absolute;
 	top:0px;
 	left:0px;
@@ -19,8 +18,8 @@
 	transition : color 0.3s;
 }
 #menu_header div:hover {
-	color:white;
-	font-family:Arial;
+	color: white;
+	font-family: Arial;
 	transition : color 0.3s;
 }
 

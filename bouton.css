@@ -1,7 +1,7 @@
 /* CSS Document */
 
 
-.bouton{
+.bouton_orange{
 font-family:Arial,sans-serif;
 font-size:1.8em;
 width:200px;
@@ -16,18 +16,55 @@ background:-ms-linear-gradient(#F92,#ED7F10);
 background:-o-linear-gradient(#F92,#ED7F10);
 background:linear-gradient(#F92,#ED7F10);
 border-radius:8px;
+border-radius:8px;
+border-color : #ED7F10;
+border-style: solid;
+border-width:1px;
 box-shadow:0 0 0px rgba(0,0,0,0.5),0 0px 0 rgba(255,255,255,0.4);
 color:#222;
 text-shadow:0 0px 0 rgba(255,255,255,0.2);
 transition: all 0.2s;
 }
-.bouton:hover{
+.bouton_orange:hover{
 cursor:pointer;
 box-shadow:0 0 8px rgba(0,0,0,0.8);
 text-shadow:0 1px 0 rgba(255,255,255,0.2);
 
 transition: all 0.2s;
 }
-.bouton:active{
+.bouton_orange:active{
+box-shadow:1px 1px 10px black inset,0 1px 0 rgba(255,255,255,0.4);
+}
+.bouton_blanc{
+font-family:Arial,sans-serif;
+font-size:1.5em;
+width:150px;
+height:32px;
+padding-top:7px;
+margin:100px auto;
+text-align:center;
+background:#444;
+background:-webkit-linear-gradient(#ccc,#eee);
+background:-moz-linear-gradient(#ccc,#eee);
+background:-ms-linear-gradient(#ccc,#eee);
+background:-o-linear-gradient(#ccc,#eee);
+background:linear-gradient(#ccc,#eee);
+border-radius:8px;
+border-color : #ccc;
+border-style: solid;
+border-width:1px;
+box-shadow:0 0 0px rgba(0,0,0,0.5),0 0px 0 rgba(255,255,255,0.4);
+color:#222;
+text-shadow:0 0px 0 rgba(255,255,255,0.2);
+transition: all 0.2s;
+}
+.bouton_blanc:hover{
+cursor:pointer;
+box-shadow:0 0 8px rgba(0,0,0,0.8);
+text-shadow:0 1px 0 rgba(255,255,255,0.2);
+
+transition: all 0.2s;
+}
+.bouton_blanc:active{
 box-shadow:1px 1px 10px black inset,0 1px 0 rgba(255,255,255,0.4);
 }
