@@ -1,0 +1,33 @@
+/* CSS Document */
+
+
+.bouton{
+font-family:Arial,sans-serif;
+font-size:1.8em;
+width:200px;
+height:43px;
+padding-top:7px;
+margin:100px auto;
+text-align:center;
+background:#444;
+background:-webkit-linear-gradient(#F92,#ED7F10);
+background:-moz-linear-gradient(#F92,#ED7F10);
+background:-ms-linear-gradient(#F92,#ED7F10);
+background:-o-linear-gradient(#F92,#ED7F10);
+background:linear-gradient(#F92,#ED7F10);
+border-radius:8px;
+box-shadow:0 0 0px rgba(0,0,0,0.5),0 0px 0 rgba(255,255,255,0.4);
+color:#222;
+text-shadow:0 0px 0 rgba(255,255,255,0.2);
+transition: all 0.2s;
+}
+.bouton:hover{
+cursor:pointer;
+box-shadow:0 0 8px rgba(0,0,0,0.8);
+text-shadow:0 1px 0 rgba(255,255,255,0.2);
+
+transition: all 0.2s;
+}
+.bouton:active{
+box-shadow:1px 1px 10px black inset,0 1px 0 rgba(255,255,255,0.4);
+}
